@@ -1,0 +1,32 @@
+# Python sanal ortamı (Virtual Environment)
+.venv/
+venv/
+env/
+ENV/
+
+# Python derleme ve önbellek (cache) dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Gizli ortam değişkenleri ve hassas veriler
+.env
+.env.local
+
+# Test ve kapsama (Coverage) önbellekleri
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Veritabanı ve yerel veriler (SQLite vb.)
+*.db
+*.sqlite3
+
+# IDE ve Editör klasörleri
+.vscode/
+.idea/
+*.swp
+
+# Docker / OS geçici dosyaları
+.DS_Store
+Thumbs.db
